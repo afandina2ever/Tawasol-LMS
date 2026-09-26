@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  الدومين يُدخله المستخدم داخل التطبيق نفسه وقد لا يملك شهادة SSL بعد،
+  لذلك نسمح بالاتصال غير المشفّر (http) بشكل عام. الأفضل لاحقًا تفعيل HTTPS
+  على السيرفر وتضييق هذا الإعداد على الدومين الفعلي فقط.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

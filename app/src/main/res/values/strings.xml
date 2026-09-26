@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tawasol.LMS</string>
+
+    <string name="setup_title">مرحبًا بك في Tawasol.LMS</string>
+    <string name="setup_subtitle">أدخل رابط موقع المدرسة للبدء</string>
+    <string name="setup_hint">مثال: lms.myschool.com</string>
+    <string name="setup_button">دخول</string>
+    <string name="setup_error_empty">من فضلك أدخل رابط الموقع</string>
+    <string name="setup_error_invalid">الرابط غير صحيح، تأكد وحاول مرة أخرى</string>
+
+    <string name="menu_refresh">تحديث</string>
+    <string name="menu_change_domain">تغيير رابط الموقع</string>
+    <string name="menu_share">مشاركة</string>
+
+    <string name="error_no_internet">لا يوجد اتصال بالإنترنت</string>
+    <string name="error_cannot_reach">تعذّر الوصول إلى الموقع</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="change_domain">تغيير الرابط</string>
+
+    <string name="exit_confirm">اضغط مرة أخرى للخروج</string>
+</resources>
